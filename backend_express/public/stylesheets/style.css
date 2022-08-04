@@ -1,0 +1,76 @@
+body {
+  background: #121212;
+}
+
+/* Titulos */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+.campo_oscuro {
+  /* Rectangle 5 */
+  box-sizing: border-box;
+  width: 293px;
+  height: 49px;
+  background: #161B22;
+  border: 1px solid #161B22;
+  border-radius: 10px;
+  font-family: 'Jost', sans-serif;
+  padding: 20px;
+  font-style: normal;
+  font-size: 15px;
+  color: #D1D1D1;
+}
+
+/* Color del texto que contiene el campo*/
+.campo_oscuro::placeholder {
+  color: #D1D1D1;
+}
+
+.boton_iniciar_sesion {
+  box-sizing: border-box;
+  width: 293px;
+  height: 49px;
+  background: #9E34F9;
+  border: 1px solid #9E34F9;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Texto adentro del botón */
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.no_tienes_una_cuenta {
+  /* ¿No tienes cuenta? */
+
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.registrate {
+  margin-left: 60px;
+  background: none;
+  border: none;
+
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  color: #F05E7D;
+}

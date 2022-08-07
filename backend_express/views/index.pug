@@ -1,5 +1,41 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html(lang='es')
+  head
+    meta(name='viewport', content='width=device-width', charset='utf-8')
+    title mnd:)
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Jost&display=swap', rel='stylesheet')
+  body
+    br
+    br
+    br
+    br
+    h1(align='center')
+      | mnd
+      font(size='4') :)
+    br
+    br
+    br
+    br
+    form(align='center')
+      input#celular.campo_oscuro(type='tel', minlength='10', maxlength='10', placeholder='Celular', required='')
+      br
+      br
+      input#contrasena.campo_oscuro(type='password', placeholder='Contraseña', required='')
+      br
+      br
+      br
+      br
+      input.boton_iniciar_sesion(type='submit', value='Iniciar sesión')
+      br
+      br
+      br
+      br
+      span.no_tienes_una_cuenta
+        | &iquest;No tienes cuenta?&nbsp;
+        a(href='crear')
+          button.registrate(type='button')
+            div Registrate

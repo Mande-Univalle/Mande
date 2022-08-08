@@ -1,9 +1,18 @@
 body {
   background: #121212;
+  color: #D1D1D1;
 }
 
-/* Titulos */
+/* Títulos */
 h1 {
+  font-family: 'Jost', sans-serif;
+  color: #FFFFFF;
+}
+
+/* Pantalla inicial */
+
+/* Mande logo */
+.mande_logo {
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -72,4 +81,13 @@ h1 {
   font-size: 15px;
   cursor: pointer;
   color: #F05E7D;
+}
+
+/* Pantalla registro general */
+
+#page_registro_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 800px;
 }

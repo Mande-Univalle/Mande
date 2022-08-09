@@ -1,0 +1,55 @@
+doctype html
+//
+  /*
+  *  Pantalla registro trabajador 1.
+  *
+  */
+html(lang='es')
+  head
+    meta(name='viewport', content='width=device-width', charset='utf-8')
+    title mnd:)
+    // Importa las fuentes desde Google Fonts
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Jost&display=swap', rel='stylesheet')
+  body
+    br
+    br
+    br
+    br
+    h1.registrate_tiulo(align='center')
+      | Reg&iacute;strate
+    br
+    br
+    form(align='center', method='POST')
+      input#nombre.campo_claro(name='nombre', type='text', placeholder='Nombre', required='')
+      br
+      br
+      input#apellido.campo_claro(name='apellido', type='text', placeholder='Apellido', required='')
+      br
+      br
+      input#celular.campo_claro(name='celular', type='text', placeholder='Celular', minlength='10', maxlength='10', required='', pattern='[0-9]{10}')
+      br
+      br
+      input#direccion.campo_claro(name='direccion', type='text', placeholder='Dirección', required='')
+      br
+      br
+      input#cedula.campo_claro(name='cedula', type='tel', placeholder='Cédula', minlength='7', maxlength='10', required='', pattern='[0-9]{7,10}')
+      br
+      br
+      input#correo.campo_claro(name='correo', type='email', placeholder='Correo electrónico', required='')
+      br
+      br
+      br
+      br
+      br
+      br
+      a(href='registro')
+        img.flecha_volver(title='Volver', src='/images/flechaVolver.png')
+      a(href='registro_trabajador2', type='submit')
+        input.flecha_Avanzar(type='image', title='Siguiente', src='/images/flechaVolver.png')
+      br
+      br
+      br
+      br

@@ -129,8 +129,77 @@ h1 {
   color: #FFFFFF;
 }
 
-.flecha_volver{
+.flecha_volver {
   position: absolute;
   left: 520px;
 }
 
+/* Pantallas registro trabajador */
+/* Registro trabajador 1*/
+.campo_claro {
+  box-sizing: border-box;
+  width: 293px;
+  height: 49px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+
+  font-family: 'Jost', sans-serif;
+  padding: 20px;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/* Color del texto que contiene el campo*/
+.campo_claro::placeholder {
+  color: #9E9D9D;
+}
+
+.flecha_Avanzar {
+  position: absolute;
+  left: 790px;
+  transform: rotate(-180deg);
+}
+
+/* Registro trabajador 2*/
+
+.boton_rojo{
+  box-sizing: border-box;
+  width: 293px;
+  height: 49px;
+  background: #D83C3E;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Texto adentro del botón */
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.boton_rojo_input{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.boton_seleccionar{
+  box-sizing: border-box;
+  width: 293px;
+  height: 49px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-left: 20px;
+
+  /* Texto adentro del botón */
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color:  #9E9D9D;
+}

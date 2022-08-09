@@ -1,0 +1,57 @@
+doctype html
+//
+  /*
+  *  Pantalla registro general.
+  *	Se usa para escoger el tipo de usuario a registrar.
+  *
+  */
+html(lang='es')
+  head
+    meta(name='viewport', content='width=device-width', charset='utf-8')
+    title mnd:)
+    // Importa las fuentes desde Google Fonts
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Jost&display=swap', rel='stylesheet')
+  body
+    br
+    br
+    br
+    br
+    h1.registrate_tiulo(align='center')
+      | Reg&iacute;strate
+    br
+    br
+    div(align='center')
+      span.registrate_parrafos
+        | Selecciona el tipo de cuenta que deseas crear:
+        br
+        br
+        br
+        br
+        a(href='registro_usuario')
+          button.boton_redondeado_rosa(type='button', title='Usuario')
+            div Usuario
+        br
+        br
+                  para PEDIR servicios.
+        br
+        br
+        a(href='registro_trabajador')
+          button.boton_redondeado_lila(type='button', title='Trabajador')
+            div Trabajador
+        br
+        br
+                  para OFRECER servicios y ganar dinero.
+        br
+        br
+        br
+        p
+          | Al registrarte est&aacute;s aceptando los T&eacute;rminos y
+          br
+          | Condiciones y la Pol&iacute;tica de Privacidad de Mande.
+        br
+        br
+        a(href='index')
+          img.flecha_volver(title='Volver', src='/images/flechaVolver.png')

@@ -18,14 +18,14 @@ html(lang='es')
     br
     br
     br
-    h1.mande_logo(align='center')
+    h1.mande_logo(title='Bienvenido a Mande', align='center')
       | mnd
       font(size='4') :)
     br
     br
     br
     br
-    form(align='center')
+    form(align='center', method='POST', action='usuario')
       input#celular.campo_oscuro(type='tel', minlength='10', maxlength='10', placeholder='Celular', required='')
       br
       br
@@ -34,13 +34,15 @@ html(lang='es')
       br
       br
       br
-      input.boton_iniciar_sesion(type='submit', value='Iniciar sesión')
+      input.boton_iniciar_sesion(title='Iniciar sesión', type='submit', value='Iniciar sesión')
       br
       br
       br
       br
       span.no_tienes_una_cuenta
         | &iquest;No tienes cuenta?&nbsp;
-        a(href='crear')
-          button.registrate(type='button')
-            div Registrate
+        a(href='registro')
+          button.registrate(type='button', title='Regístrate')
+            div Reg&iacute;strate
+
+            

@@ -21,7 +21,6 @@ h1 {
 }
 
 .campo_oscuro {
-  /* Rectangle 5 */
   box-sizing: border-box;
   width: 293px;
   height: 49px;
@@ -59,14 +58,10 @@ h1 {
 }
 
 .no_tienes_una_cuenta {
-  /* ¿No tienes cuenta? */
-
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  align-items: center;
-  text-align: center;
   color: #FFFFFF;
 }
 
@@ -74,7 +69,6 @@ h1 {
   margin-left: 60px;
   background: none;
   border: none;
-
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -84,10 +78,59 @@ h1 {
 }
 
 /* Pantalla registro general */
-
-#page_registro_ek1 {
-	top: 0px;
-	left: 0px;
-	width: 360px;
-	height: 800px;
+/* Título */
+.registrate_tiulo {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #FFFFFF;
 }
+
+.registrate_parrafos {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.boton_redondeado_rosa {
+  box-sizing: border-box;
+  width: 283px;
+  height: 49px;
+  background: #DC44BF;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+
+  /* Texto adentro del botón */
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.boton_redondeado_lila {
+  box-sizing: border-box;
+  width: 283px;
+  height: 49px;
+  background: #9E34F9;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+
+  /* Texto adentro del botón */
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.flecha_volver{
+  position: absolute;
+  left: 520px;
+}
+

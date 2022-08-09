@@ -7,6 +7,7 @@ const logger = require('morgan');
 const helloRouter = require('./routes/hello');
 const indexRouter = require('./routes/index');
 const crearRouter = require('./routes/crear');
+const registroRouter = require('./routes/registro');
 
 const queryRouter = require('./routes/query');
 const usuarioRouter = require('./routes/usuario');
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/hello', helloRouter);
 app.use('/', indexRouter);
 app.use('/crear', crearRouter);
+app.use('/registro', registroRouter);
 
 app.use('/ejecutar_query', queryRouter);
 app.use('/usuario', usuarioRouter);

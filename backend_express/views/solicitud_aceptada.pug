@@ -1,0 +1,106 @@
+html(lang='es')
+  head
+    meta(name='viewport', content='width=device-width', charset='utf-8')
+    | &#x9;
+    title mnd:)
+    // Importa las fuentes desde Google Fonts
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    | &#x9;
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    | &#x9;
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    | &#x9;
+    link(href='https://fonts.googleapis.com/css2?family=Jost&display=swap', rel='stylesheet')
+  body
+    h1.info_usuario
+      | Cargando informacion usuario
+      a(href='inicio_usuario')
+        img.imagen_salida(title='Volver', src='/images/imagen_salida.png')
+    | &#x9;
+    br
+    br
+    | &#x9;
+    h2.direccion_usuario
+      | Cargando direccion usuario
+    | &#x9;
+    br
+    br
+    | &#x9;
+    div(align='center')
+      p#servicio_solicitado.recuadro_azul Cargando Servicio Solicitado...
+      | &#x9;&#x9;
+      h2.izq
+        a(href='solicitar_servicio')
+          img.flechaVolver(title='atras', src='/images/flechaVolver.png')
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p.label_descripcion Trabajador:
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p#trabajador_servicio.label_descripcion_completado cargando trabajador
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p.label_descripcion Costo / hora:
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p#costo_hora.label_descripcion_completado cargando costo
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p.label_descripcion Distancia:
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p#distancia_servicio.label_descripcion_completado cargando distancia
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p.label_descripcion Descripcion:
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p#descripcion_servicio.label_descripcion_completado cargando descripcion
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      .rectangulo_solicitud_aceptada
+        | Tu solicitud ha sido aceptada. Tu trabajador est&aacute; en camino.
+        a(href='en_curso')
+          button.boton_aceptar(type='button', title='aceptar')
+            div Aceptar
+      | &#x9;&#x9;
+      a(href='solicitud_aceptada')
+        button.boton_aceptar(type='button', title='aceptar')
+          div Aceptar
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p.barra_inferior
+        a(href='inicio_usuario')
+          img.imagen_home(title='Volver', src='/images/imagen_home.png')
+        | &#x9;&#x9;&#x9;
+        a(href='inicio_usuario')
+          img.imagen_option(title='Volver', src='/images/imagen_option.png')

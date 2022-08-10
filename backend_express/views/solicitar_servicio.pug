@@ -1,0 +1,67 @@
+html(lang='es')
+  head
+    meta(name='viewport', content='width=device-width', charset='utf-8')
+    | &#x9;
+    title mnd:)
+    // Importa las fuentes desde Google Fonts
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    | &#x9;
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    | &#x9;
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    | &#x9;
+    link(href='https://fonts.googleapis.com/css2?family=Jost&display=swap', rel='stylesheet')
+  body
+    h1.info_usuario
+      | Cargando informacion usuario
+      a(href='inicio_usuario')
+        img.imagen_salida(title='Volver', src='/images/imagen_salida.png')
+    | &#x9;
+    br
+    br
+    | &#x9;
+    h2.direccion_usuario
+      | Cargando direccion usuario
+    | &#x9;
+    br
+    br
+    | &#x9;
+    br
+    br
+    | &#x9;
+    div(align='center')
+      p#servicio_solicitado.recuadro_azul Cargando Servicio...
+      | &#x9;&#x9;
+      span Trabajador &nbsp; Promedio &nbsp; Distancia &nbsp; Costo 
+      | &#x9;&#x9;
+      | &#x9;&#x9;
+      a#servicio_ofrecido1(href='ver_m_s_servicio')
+        .espacio_servicio  
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      a#servicio_ofrecido2(href='ver_m_s_servicio')
+        .espacio_servicio  
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      a#servicio_ofrecido3(href='ver_m_s_servicio')
+        .espacio_servicio  
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      br
+      br
+      | &#x9;&#x9;
+      p.barra_inferior
+        a(href='inicio_usuario')
+          img.imagen_home(title='Volver', src='/images/imagen_home.png')
+        | &#x9;&#x9;&#x9;
+        a(href='pesta_a_historial_servicios')
+          img.imagen_option(title='Volver', src='/images/imagen_option.png')

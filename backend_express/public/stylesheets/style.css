@@ -203,3 +203,293 @@ h1 {
   font-size: 15px;
   color:  #9E9D9D;
 }
+
+/* Usuario */
+
+h2 {
+  font-family: 'Jost', sans-serif;
+  color: #FFFFFF;
+}
+
+.info_usuario {
+  position: absolute;
+  width: 305px;
+  height: 42px;
+  left: calc(50% - 305px/2 - 0.5px);
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.direccion_usuario,
+.izq {
+  position: absolute;
+  width: 305px;
+  height: 42px;
+  left: calc(50% - 305px/2 - 0.5px);
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.der {
+  position: absolute;
+  left: calc(105% - 305px/2 - 0.5px);
+}
+
+
+.servicios_rectangulo {
+  box-sizing: border-box;
+  width: 135px;
+  height: 135px;
+
+  background: #161B22;
+  border: 1px solid #161B22;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.imagen_servicio {
+  position: absolute;
+  left: 25px;
+  width: 90px;
+  height: 90px;
+  background: url(image.png);
+}
+
+.barra_inferior {
+  box-sizing: border-box;
+  width: 360px;
+  height: 49px;
+
+  background: #161B22;
+  border: 1px solid #161B22;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+}
+
+
+.recuadro_lila {
+  box-sizing: border-box;
+  width: 305px;
+  height: 49px;
+
+  background: #DC44BF;
+  border: 1px solid #DC44BF;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+}
+
+.recuadro_naranja {
+  box-sizing: border-box;
+  width: 305px;
+  height: 49px;
+
+  background: #D83C3E;
+  border: 1px solid #D83C3E;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+}
+
+.recuadro_azul {
+  box-sizing: border-box;
+  width: 305px;
+  height: 49px;
+
+  background: #6058FF;
+  border: 1px solid #6058FF;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+}
+
+.espacio_servicio {
+  box-sizing: border-box;
+  width: 305px;
+  height: 54px;
+  background: #161B22;
+  border: 1px solid #161B22;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+}
+
+.imagen_home {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 102px;
+  background: url(image.png);
+}
+
+.imagen_option {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 250px;
+
+  background: url(image.png);
+}
+
+.imagen_salida {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 308px;
+  background: url(image.png);
+}
+
+.label_descripcion {
+
+  position: absolute;
+  width: 305px;
+  height: 42px;
+  left: calc(50% - 305px/2 - 0.5px);
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.label_descripcion_completado {
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+
+  position: absolute;
+  width: 305px;
+  height: 42px;
+  left: calc(50% - 305px/2 - 0.5px);
+  line-height: 23px;
+  align-items: center;
+  display: flex;
+}
+
+.boton_aceptar {
+  box-sizing: border-box;
+  width: 170px;
+  height: 49px;
+  left: 94px;
+  top: 675px;
+
+  background: #D83C3E;
+  border: 1px solid #D83C3E;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+
+.rectangulo_solicitud_aceptada {
+  box-sizing: border-box;
+  position: absolute;
+  width: 280px;
+  height: 250px;
+  left: 527px;
+  top: 217px;
+
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #161B22;
+}
+
+.rectangulo_estrellas {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  left: 0;
+
+
+  background: #161B22;
+  border: 1px solid #161B22;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+/*Finaliza usuario*/

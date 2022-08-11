@@ -535,7 +535,6 @@ img {
 	top: 132px;
 	background: #D83C3E;
 	border: 1px solid #D83C3E;
-	backdrop-filter: blur(4px);
 	border-radius: 10px;
 	top: 146px;
 	font-family: Jost;
@@ -556,7 +555,6 @@ img {
 	top: 416px;
 	background: #FF0000;
 	border: 1px solid #FF0000;
-	backdrop-filter: blur(4px);
 	border-radius: 10px;
 	font-family: Jost;
 	font-size: 15px;
@@ -1529,7 +1527,6 @@ del trabajador (comparten componentes en común entre sí)*/
 	box-sizing: border-box;
 	background: #D83C3E;
 	border: 1px solid #D83C3E;
-	backdrop-filter: blur(4px);
 	border-radius: 30px;
 	top: 146px;
 	font-family: Jost;

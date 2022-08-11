@@ -5,7 +5,7 @@ const connect = require('./db_pool_connect');
 
 /* GET home page.*/
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { error: '' });
 });
 
 //Iniciar sesión
@@ -29,7 +29,7 @@ router.post('/', function (req, res, next) {
 
         if (result.rowCount == 0){
           //No hace nada
-          res.render('index', { title: 'Express' });
+          res.render('index', { error: 'Datos incorrectos. Intente nuevamente.' });
         }else{  
           res.send(JSON.stringify(result.rows));
         }

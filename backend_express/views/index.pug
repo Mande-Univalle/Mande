@@ -37,13 +37,14 @@ html(lang='es')
       input#boton_iniciar_sesion.boton_iniciar_sesion(title='Iniciar sesión', type='submit', value='Iniciar sesión')
       br
       br
-      span#error_parrafo.error_texto
+      span#error_parrafo.error_texto #{error}
       br
       br
       span.no_tienes_una_cuenta
         | &iquest;No tienes cuenta?&nbsp;
         a(href='registro')
           button.registrate(type='button', title='Regístrate')
-            div Reg&iacute;strate    
+            div Reg&iacute;strate
+    script(src='/scripts/index_script.js')              
 
             

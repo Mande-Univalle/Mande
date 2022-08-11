@@ -1,0 +1,99 @@
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en', lang='en')
+  head
+    meta(http-equiv='content-type', content='text/html', charset='utf-8')
+    | &#x9;&#x9;
+    title Men&uacute; principal - conectado
+    | &#x9;&#x9;
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    | &#x9;&#x9;
+    meta(name='description', content='')
+    | &#x9;&#x9;
+    link(rel='StyleSheet', href='/stylesheets/style.css')
+    | &#x9;&#x9;
+    script(src='https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6')
+  | &#x9;
+  body
+    #content-container
+      #page_inicio
+        #page_inicio_centrado
+        | &#x9;&#x9;&#x9;&#x9;
+        #nombre_interfaz
+          | Cargando nombre...
+        | &#x9;&#x9;&#x9;&#x9;
+        #puntaje
+          | 4.2/5
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='inicio_trabajador.html')
+          #barra_conectado
+          | &#x9;&#x9;&#x9;&#x9;
+          #conectado
+            | Conectado
+        | &#x9;&#x9;&#x9;&#x9;
+        #barra_inferior_interfaz
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        #rectangulo_titulo_solicitudes
+        | &#x9;&#x9;&#x9;&#x9;
+        #solicitudes_de_servicios
+          | Solicitudes de servicios
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='servicio_abierto_trabajador.html')
+          #barra_demanda_de_labores
+          | &#x9;&#x9;&#x9;&#x9;
+          #demanda_distancia
+            | Cargando...
+          | &#x9;&#x9;&#x9;&#x9;
+          #demanda_precio
+            | Cargando...
+          | &#x9;&#x9;&#x9;&#x9;
+          #demanda_labor
+            | Tipo trabajo #1
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='http://localhost:3000/')
+          img#imagen_exit(src='skins/imagen_exit.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        img#imagen_home(src='skins/imagen_home.png')
+        |  
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='en_curso_trabajador.html')
+          img#imagen_option(src='skins/imagen_option.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        img#estrellita(src='skins/estrellita.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        #hay_clientes_que_est_n_buscando_tu_talento___
+          | Hay clientes que est&aacute;n buscando tu talento :)
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        #ofertaa_tipo_de_trabajo
+          | Tipo de trabajo
+        | &#x9;&#x9;&#x9;&#x9;
+        #ofertaa_distancia
+          | Distancia
+        | &#x9;&#x9;&#x9;&#x9;
+        #ofertaa_ganancia_hora
+          | Ganancia hora
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='adicionar_labor_trabajador.html')
+          #rectangulo_labor
+        | &#x9;&#x9;&#x9;&#x9;
+        #a_adir_labor
+          | A&ntilde;adir labor
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='mis_labores_trabajador.html')
+          #rectangulo_mis_labores
+        | &#x9;&#x9;&#x9;&#x9;
+        #mis_labores
+          | Mis labores
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='mis_labores_trabajador.html')
+          img#imagen_configuracion_labor(src='skins/imagen_configuracion_labor.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='adicionar_labor_trabajador.html')
+          img#imagen_agregar_labor(src='skins/imagen_agregar_labor.png')
+    | &#x9;&#x9;
+    script.
+      var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }

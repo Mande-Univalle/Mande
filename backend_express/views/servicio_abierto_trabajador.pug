@@ -1,0 +1,87 @@
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en', lang='en')
+  head
+    meta(http-equiv='content-type', content='text/html', charset='utf-8')
+    | &#x9;&#x9;
+    title Servicio
+    | &#x9;&#x9;
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    | &#x9;&#x9;
+    meta(name='description', content='')
+    | &#x9;&#x9;
+    link(rel='StyleSheet', href='/stylesheets/style.css')
+    | &#x9;&#x9;
+    script(src='https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6')
+  | &#x9;
+  body
+    #content-container
+      #page_inicio
+        #page_inicio_centrado
+        | &#x9;&#x9;&#x9;&#x9;
+        #nombre_interfaz
+          | Cargando nombre...
+        | &#x9;&#x9;&#x9;&#x9;
+        #barra_inferior_interfaz
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        #servicioAbierto_barra_titulo
+        | &#x9;&#x9;&#x9;&#x9;
+        #servicioAbierto_nombre_labor
+          | Cargando labor...
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='http://localhost:3000/')
+          img#imagen_exit(src='skins/imagen_exit.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        #cliente_
+          | Cliente:
+        | &#x9;&#x9;&#x9;&#x9;
+        #servicioAbierto_nombre_cliente
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #ganancia_hora_
+          | Ganancia hora:
+        | &#x9;&#x9;&#x9;&#x9;
+        #servicioAbierto_ganaciaXhora
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #servicioAbierto_distancia
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #distancia_x
+          | Distancia:
+        | &#x9;&#x9;&#x9;&#x9;
+        #servicioAbierto_direccion
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #direcci_n_
+          | Direcci&oacute;n
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='inicio_trabajador___conectado.html')
+          #servicioAbierto_botonRechazo
+          | &#x9;&#x9;&#x9;&#x9;
+          #servicioAbierto_rechazar
+            | Rechazar
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='en_curso_trabajador.html')
+          #servicioAbierto_botonAceptar
+          | &#x9;&#x9;&#x9;&#x9;
+          #servicioAbierto_aceptar
+            | Aceptar
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='en_curso_trabajador.html')
+          img#imagen_option(src='skins/imagen_option.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='inicio_trabajador___conectado.html')
+          img#imagen_home(src='skins/imagen_home.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        #puntaje
+          | 4.2/5
+        |  
+        | &#x9;&#x9;&#x9;&#x9;
+        img#estrellita(src='skins/estrellita.png')
+    | &#x9;&#x9;
+    script.
+      var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }

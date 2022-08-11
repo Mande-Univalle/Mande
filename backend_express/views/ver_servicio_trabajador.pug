@@ -1,0 +1,69 @@
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en', lang='en')
+  head
+    meta(http-equiv='content-type', content='text/html', charset='utf-8')
+    | &#x9;&#x9;
+    title Ver servicio
+    | &#x9;&#x9;
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    | &#x9;&#x9;
+    meta(name='description', content='')
+    | &#x9;&#x9;
+    link(rel='StyleSheet', href='/stylesheets/style.css')
+    | &#x9;&#x9;
+    script(src='https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6')
+  | &#x9;
+  body
+    #content-container
+      #page_inicio
+        #page_inicio_centrado
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_tituloidservicio
+          | Servicio #
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_titulocliente
+          | Cliente:
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_nombreCliente
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_tituloganancias
+          | Ganancias:
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_dineroxhora
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #puntaje
+          | 4.2/5
+        | &#x9;&#x9;&#x9;&#x9;
+        img#estrellita(src='skins/estrellita.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        #nombre_interfaz
+          | Cargando nombre...
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='http://localhost:3000/')
+          img#imagen_exit(src='skins/imagen_exit.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        #barra_inferior_interfaz
+        | &#x9;&#x9;&#x9;&#x9;
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='en_curso_trabajador.html')
+          img#imagen_option(src='skins/imagen_option.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        a(href='inicio_trabajador___conectado.html')
+          img#imagen_home(src='skins/imagen_home.png')
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_titulolabor
+          | Tipo:
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_tipolabor
+          | Cargando...
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_titulofecha
+          | Fecha:
+        | &#x9;&#x9;&#x9;&#x9;
+        #verServicio_fechalabor
+          | Cargando...
+    | &#x9;&#x9;
+    script.
+      var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }

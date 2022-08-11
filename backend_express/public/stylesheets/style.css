@@ -485,3 +485,1055 @@ h2 {
 }
 
 /*Finaliza usuario*/
+
+img {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+
+div {
+	position: absolute;
+}
+
+/*Componente principal de las interfaces*/
+#content-container {
+	display: block;
+	position: relative;
+	width: 360px;
+	width: 360px;
+	height: 800px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*título en interfaz principal trabajador*/
+#solicitudes_de_servicios {
+	top: 430px;
+	left: 49px;
+	width: 273.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+/*Botón desconectado en interfaz principal*/
+#boton_desconectar {
+	box-sizing: border-box;
+	position: absolute;
+	width: 305px;
+	height: 49px;
+	left: 27px;
+	top: 132px;
+	background: #D83C3E;
+	border: 1px solid #D83C3E;
+	backdrop-filter: blur(4px);
+	border-radius: 10px;
+	top: 146px;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+
+/*Columna roja solicitud de servicios en inicio interfaz trabajador */
+#boton_solicitud_de_servicios {
+	box-sizing: border-box;
+	position: absolute;
+	width: 305px;
+	height: 49px;
+	left: 27px;
+	top: 416px;
+	background: #FF0000;
+	border: 1px solid #FF0000;
+	backdrop-filter: blur(4px);
+	border-radius: 10px;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+/*Inputs en interfaz añadir labor*/
+#input_labor {
+	top: 198px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#input_precio {
+	top: 198px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+	top: 350px;
+	left: 31px;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#input_descripcion {
+	top: 332px;
+	left: 27px;
+	width: 307px;
+	height: 222px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+	resize: none;
+}
+
+
+/*Ubicación estándar de componentes en común de
+las interfaces de trabajador*/
+#estrellita {
+	top: 70px;
+	left: 30px;
+	width: 14px;
+	height: 14px;
+}
+
+
+#puntaje {
+	top: 66px;
+	left: 65px;
+	width: 67px;
+	height: 46px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 16px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#page_inicio {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 800px;
+}
+
+#page_inicio_centrado {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 800px;
+	background: rgba(18, 18, 18, 1);
+}
+
+
+#nombre_interfaz {
+	top: 37px;
+	left: 27px;
+	width: 330px;
+	height: 56px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#barra_inferior_interfaz {
+	top: 751px;
+	left: 0px;
+	width: 362px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+}
+
+
+
+#rectangulo_labor {
+	top: 222px;
+	left: 28px;
+	width: 141px;
+	height: 141px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+}
+
+
+#rectangulo_titulo_solicitudes {
+	top: 416px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #ff0000;
+	background: rgba(255, 0, 0, 1);
+}
+
+/*texto decorativo*/
+#a_adir_labor {
+	top: 350px;
+	left: 31px;
+	width: 132.5px;
+	height: 60.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+/*texto decorativo*/
+#mis_labores {
+	top: 350px;
+	left: 196px;
+	width: 156.5px;
+	height: 60.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#rectangulo_mis_labores {
+	top: 222px;
+	left: 193px;
+	width: 141px;
+	height: 141px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+}
+
+
+#imagen_exit {
+	top: 60px;
+	left: 308px;
+	width: 24px;
+	height: 24px;
+}
+
+
+#imagen_home {
+	top: 768px;
+	left: 83px;
+	width: 20px;
+	height: 20px;
+}
+
+#imagen_option {
+	top: 768px;
+	left: 250px;
+	width: 20px;
+	height: 20px;
+}
+
+/*texto decorativo*/
+#cambia_tu_estado_para_recibir_solicitudes_ {
+	top: 486px;
+	left: 43px;
+	width: 293.5px;
+	height: 37.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#imagen_configuracion_labor {
+	top: 260px;
+	left: 228px;
+	width: 70.03px;
+	height: 68px;
+}
+
+#imagen_agregar_labor {
+	top: 260px;
+	left: 70px;
+	width: 64px;
+	height: 64px;
+}
+
+#conectado {
+	top: 146px;
+	left: 49px;
+	width: 273.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+/*barra en interfaz principal del trabajador cuando está conectado*/
+#barra_conectado {
+	top: 132px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #51c529;
+	background: rgba(81, 197, 41, 1);
+}
+
+#barra_demanda_de_labores {
+	top: 577px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+}
+
+
+
+
+/*títulos en la interfaz principal del trabajador
+cuanto está conectado*/
+#demanda_distancia {
+	top: 596px;
+	left: 183px;
+	width: 58px;
+	height: 25px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 12px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#demanda_precio {
+	top: 593px;
+	left: 267px;
+	width: 67px;
+	height: 25px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 12px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#demanda_labor {
+	top: 591px;
+	left: 44px;
+	width: 116.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#hay_clientes_que_est_n_buscando_tu_talento___ {
+	top: 484px;
+	left: 35px;
+	width: 310.5px;
+	height: 37.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#ofertaa_tipo_de_trabajo {
+	top: 532px;
+	left: 44px;
+	width: 113px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 12px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#ofertaa_distancia {
+	top: 535px;
+	left: 178px;
+	width: 69px;
+	height: 25px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 12px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#ofertaa_ganancia_hora {
+	top: 527px;
+	left: 270px;
+	width: 67px;
+	height: 42px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 12px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+/*Componentes de la interfaz servicio abierto del trabajador*/
+#servicioAbierto_barra_titulo {
+	top: 134px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #6058ff;
+	background: rgba(96, 88, 255, 1);
+}
+
+
+#servicioAbierto_nombre_labor {
+	top: 148px;
+	left: 49px;
+	width: 273.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#cliente_ {
+	top: 257px;
+	left: 27px;
+	width: 143px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#ganancia_hora_ {
+	top: 347px;
+	left: 27px;
+	width: 178px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#distancia_x {
+	top: 437px;
+	left: 27px;
+	width: 271px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+
+#servicioAbierto_nombre_cliente {
+	top: 302px;
+	left: 27px;
+	width: 196px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#servicioAbierto_ganaciaXhora {
+	top: 392px;
+	left: 27px;
+	width: 150px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#servicioAbierto_distancia {
+	top: 482px;
+	left: 27px;
+	width: 85px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+
+#servicioAbierto_direccion {
+	top: 571px;
+	left: 27px;
+	width: 167px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+
+#servicioAbierto_botonRechazo {
+	top: 675px;
+	left: 27px;
+	width: 142px;
+	height: 51px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #dc44bf;
+	background: rgba(220, 68, 191, 1);
+}
+
+#servicioAbierto_rechazar {
+	top: 689px;
+	left: 54px;
+	width: 92px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+#servicioAbierto_botonAceptar {
+	top: 675px;
+	left: 192px;
+	width: 142px;
+	height: 51px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #d83c3e;
+	background: rgba(216, 60, 62, 1);
+}
+
+
+#servicioAbierto_aceptar {
+	top: 689px;
+	left: 220px;
+	width: 92px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+/*Componente de la interfaz "ver servicio" del trabajador*/
+#verServicio_titulocliente {
+	top: 393px;
+	left: 27px;
+	width: 143px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#verServicio_tituloganancias {
+	top: 483px;
+	left: 27px;
+	width: 178px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#verServicio_titulofecha {
+	top: 296px;
+	left: 27px;
+	width: 131px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#verServicio_titulolabor {
+	top: 206px;
+	left: 27px;
+	width: 131px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#verServicio_tituloidservicio {
+	top: 137px;
+	left: 27px;
+	width: 280px;
+	height: 64px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#verServicio_nombreCliente {
+	top: 438px;
+	left: 27px;
+	width: 196px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+
+#verServicio_dineroxhora {
+	top: 528px;
+	left: 27px;
+	width: 150px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#verServicio_tipolabor {
+	top: 243px;
+	left: 27px;
+	width: 131px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#verServicio_fechalabor {
+	top: 341px;
+	left: 27px;
+	width: 131px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 20px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+/*Componente de la interfaz "en curso" y "mis labores"
+del trabajador (comparten componentes en común entre sí)*/
+#barra_rosita {
+	top: 134px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #dc44bf;
+	background: rgba(220, 68, 191, 1);
+}
+
+
+#texto_rosita {
+	top: 148px;
+	left: 49px;
+	width: 273.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#barra_moradita {
+	top: 319px;
+	left: 27px;
+	width: 307px;
+	height: 51px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #9e34f9;
+	background: rgba(158, 52, 249, 1);
+}
+
+
+#servicios_realizados_moradito {
+	top: 333px;
+	left: 49px;
+	width: 273.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+
+#enCursoTrabajador_filaprincipal {
+	top: 212px;
+	left: 27px;
+}
+
+.enCursoTrabajador_disegnofilas {
+	width: 307px;
+	height: 56px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #161b22;
+	background: rgba(22, 27, 34, 1);
+}
+
+
+.formato_bonito {
+	width: 126.5px;
+	height: 32.5px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#enCurso_fila1 {
+	top: 440px;
+	left: 27px;
+}
+
+#enCurso_fila2 {
+	top: 511px;
+	left: 27px;
+}
+
+#enCurso_fila3 {
+	top: 582px;
+	left: 26px;
+}
+
+#tipo_ek4 {
+	top: 401px;
+	left: 49px;
+}
+
+#fecha_ek3 {
+	top: 401px;
+	left: 180px;
+}
+
+#costo_ek2 {
+	top: 401px;
+	left: 283px;
+}
+
+#enCursoTrabajador_labor {
+	top: 228px;
+	left: 49px;
+}
+
+#enCursoTrabajador_tipo1 {
+	top: 456px;
+	left: 49px;
+}
+
+#enCursoTrabajador_tipo2 {
+	top: 527px;
+	left: 49px;
+}
+
+#enCursoTrabajador_tipo3 {
+	top: 598px;
+	left: 49px;
+}
+
+
+#enCursoTrabajador_fecha1 {
+	top: 456px;
+	left: 174px;
+}
+
+
+#enCursoTrabajador_fecha2 {
+	top: 527px;
+	left: 174px;
+}
+
+
+#enCursoTrabajador_fecha3 {
+	top: 598px;
+	left: 174px;
+}
+
+
+#enCursoTrabajador_costo1 {
+	top: 456px;
+	left: 263px;
+}
+
+#enCursoTrabajador_costo2 {
+	top: 527px;
+	left: 263px;
+}
+
+#enCursoTrabajador_costo3 {
+	top: 598px;
+	left: 263px;
+}
+
+
+#misLabores_titulo_tipo {
+	top: 217px;
+	left: 48px;
+}
+
+
+#misLabores_titulo_gananciaxhora {
+	top: 218px;
+	left: 220px;
+}
+
+#misLabores_tipolabor1 {
+	top: 272px;
+	left: 48px;
+}
+
+#misLabores_tipolabor2 {
+	top: 343px;
+	left: 48px;
+}
+
+#misLabores_tipolabor3 {
+	top: 414px;
+	left: 48px;
+}
+
+#misLabores_gananciaxhora1 {
+	top: 272px;
+	left: 262px;
+}
+
+#misLabores_gananciaxhora2 {
+	top: 343px;
+	left: 262px;
+}
+
+#misLabores_gananciaxhora3 {
+	top: 414px;
+	left: 262px;
+}
+
+
+#misLabores_fila1 {
+	top: 256px;
+	left: 26px;
+}
+
+#misLabores_fila2 {
+	top: 327px;
+	left: 26px;
+}
+
+#misLabores_fila3 {
+	top: 398px;
+	left: 26px;
+}
+
+
+#agregarLabor_nombrelabor {
+	top: 256px;
+	left: 26px;
+}
+
+#agregarLabor_precioxhora {
+	top: 327px;
+	left: 26px;
+}
+
+#agregarLabor_descripcionlabor {
+	top: 398px;
+	left: 26px;
+}
+
+
+/*Botón desconectado en interfaz principal*/
+#boton_agregar_labor_div {
+	left: 94px;
+	top: 675px;
+}
+
+
+#boton_agregar_labor {
+	width: 171px;
+	height: 49px;
+	box-sizing: border-box;
+	background: #D83C3E;
+	border: 1px solid #D83C3E;
+	backdrop-filter: blur(4px);
+	border-radius: 30px;
+	top: 146px;
+	font-family: Jost;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: pointer;
+}

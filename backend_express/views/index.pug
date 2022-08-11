@@ -23,8 +23,6 @@ html(lang='es')
       font(size='4') :)
     br
     br
-    br
-    br
     form(align='center', method='POST', action='http://localhost:3000/')
       input#celular.campo_oscuro(name='celular', type='tel', minlength='10', maxlength='10', placeholder='Celular', required='')
       br
@@ -32,6 +30,12 @@ html(lang='es')
       input#contrasena.campo_oscuro(name='contrasena', type='password', placeholder='Contraseña', required='')
       br
       br
+      label.registrate_parrafos(for='tipo') Selecciona el tipo de usuario
+      br
+      br
+      select#tipo.boton_seleccionar_oscuro(name='tipo', required='')
+        option(value='usuario') Usuario
+        option(value='trabajador') Trabajador
       br
       br
       input#boton_iniciar_sesion.boton_iniciar_sesion(title='Iniciar sesión', type='submit', value='Iniciar sesión')
@@ -45,6 +49,4 @@ html(lang='es')
         a(href='registro')
           button.registrate(type='button', title='Regístrate')
             div Reg&iacute;strate
-    script(src='/scripts/index_script.js')              
-
-            
+    script(src='/scripts/index_script.js')

@@ -4,6 +4,7 @@ var router = express.Router();
 const connect = require('./db_pool_connect');
 
 /* GET home page.*/
+//Elimina el mensaje de error
 router.get('/', function (req, res, next) {
   res.render('index', { error: '' });
 });
@@ -12,13 +13,15 @@ router.get('/', function (req, res, next) {
 router.post('/', function (req, res, next) {
   var celular = req.body.celular;
   var contrasena = req.body.contrasena;
+  var tipo = req.body.tipo;
+
   connect(function (err, client, done) {
     if (err) {
       return console.error('error fetching client from pool', err);
     }
 
     //use the client for executing the query
-    client.query(`SELECT * FROM usuario WHERE telefono_usuario='${celular}' AND contrasena = '${contrasena}';`,
+    client.query(`SELECT * FROM ${tipo} WHERE telefono='${celular}' AND contrasena = '${contrasena}';`,
       function (err, result) {
         //call `done(err)` to release the client back to the pool (or destroy it if there is an error)
         done(err);
@@ -36,6 +39,6 @@ router.post('/', function (req, res, next) {
       });
   });
 
-})
+});
 
 module.exports = router;

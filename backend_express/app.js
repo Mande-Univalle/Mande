@@ -6,12 +6,8 @@ const logger = require('morgan');
 
 const helloRouter = require('./routes/hello');
 const indexRouter = require('./routes/index');
-const crearRouter = require('./routes/crear');
 const registroRouter = require('./routes/registro');
 const registro_trabajadorRouter = require('./routes/registro_trabajador');
-
-const queryRouter = require('./routes/query');
-const usuarioRouter = require('./routes/usuario');
 
 const app = express();
 
@@ -28,19 +24,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 //Direcciones a las que se puede acceder desde la barra de url
 app.use('/hello', helloRouter);
 
-app.use('/crear', crearRouter);
-
 //Inicio
 app.use('/', indexRouter);
 
 //Registro
 app.use('/registro', registroRouter);
 app.use('/registro_trabajador', registro_trabajadorRouter);
-
-
-app.use('/ejecutar_query', queryRouter);
-app.use('/usuario', usuarioRouter);
-
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

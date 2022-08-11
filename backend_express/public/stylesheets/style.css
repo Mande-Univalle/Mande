@@ -1,487 +1,521 @@
 body {
-  background: #121212;
-  color: #D1D1D1;
+	background: #121212;
+	color: #D1D1D1;
 }
 
 /* Títulos */
 h1 {
-  font-family: 'Jost', sans-serif;
-  color: #FFFFFF;
+	font-family: 'Jost', sans-serif;
+	color: #FFFFFF;
 }
 
 /* Pantalla inicial */
 
 /* Mande logo */
 .mande_logo {
-  font-family: 'Josefin Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  color: #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	color: #FFFFFF;
 }
 
 .campo_oscuro {
-  box-sizing: border-box;
-  width: 293px;
-  height: 49px;
-  background: #161B22;
-  border: 1px solid #161B22;
-  border-radius: 10px;
-  font-family: 'Jost', sans-serif;
-  padding: 20px;
-  font-style: normal;
-  font-size: 15px;
-  color: #D1D1D1;
+	box-sizing: border-box;
+	width: 293px;
+	height: 49px;
+	background: #161B22;
+	border: 1px solid #161B22;
+	border-radius: 10px;
+	font-family: 'Jost', sans-serif;
+	padding: 20px;
+	font-style: normal;
+	font-size: 15px;
+	color: #D1D1D1;
 }
 
 /* Color del texto que contiene el campo*/
 .campo_oscuro::placeholder {
-  color: #D1D1D1;
+	color: #D1D1D1;
+}
+
+.boton_seleccionar_oscuro {
+	box-sizing: border-box;
+	width: 293px;
+	height: 49px;
+	background: #161B22;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	padding-left: 20px;
+
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-size: 15px;
+	color: #D1D1D1;
 }
 
 .boton_iniciar_sesion {
-  box-sizing: border-box;
-  width: 293px;
-  height: 49px;
-  background: #9E34F9;
-  border: 1px solid #9E34F9;
-  border-radius: 10px;
-  cursor: pointer;
+	box-sizing: border-box;
+	width: 293px;
+	height: 49px;
+	background: #9E34F9;
+	border: 1px solid #9E34F9;
+	border-radius: 10px;
+	cursor: pointer;
 
-  /* Texto adentro del botón */
-  font-family: 'Josefin Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  text-align: center;
-  color: #FFFFFF;
+	/* Texto adentro del botón */
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
-.error_texto{
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 300;
-  color: #DC44BF;
+.error_texto {
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-size: 15px;
+	font-weight: 300;
+	color: #DC44BF;
 }
 
 .no_tienes_una_cuenta {
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  color: #FFFFFF;
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FFFFFF;
 }
 
 .registrate {
-  margin-left: 60px;
-  background: none;
-  border: none;
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  cursor: pointer;
-  color: #F05E7D;
+	margin-left: 60px;
+	background: none;
+	border: none;
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	cursor: pointer;
+	color: #F05E7D;
 }
 
 /* Pantalla registro general */
 /* Título */
 .registrate_tiulo {
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  color: #FFFFFF;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	color: #FFFFFF;
 }
 
 .registrate_parrafos {
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  color: #FFFFFF;
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FFFFFF;
 }
 
 .boton_redondeado_rosa {
-  box-sizing: border-box;
-  width: 283px;
-  height: 49px;
-  background: #DC44BF;
-  border: none;
-  border-radius: 40px;
-  cursor: pointer;
+	box-sizing: border-box;
+	width: 283px;
+	height: 49px;
+	background: #DC44BF;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
 
-  /* Texto adentro del botón */
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  color: #FFFFFF;
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	color: #FFFFFF;
 }
 
 .boton_redondeado_lila {
-  box-sizing: border-box;
-  width: 283px;
-  height: 49px;
-  background: #9E34F9;
-  border: none;
-  border-radius: 40px;
-  cursor: pointer;
+	box-sizing: border-box;
+	width: 283px;
+	height: 49px;
+	background: #9E34F9;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
 
-  /* Texto adentro del botón */
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  color: #FFFFFF;
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	color: #FFFFFF;
 }
 
 .flecha_volver {
-  position: absolute;
-  left: 520px;
+	position: absolute;
+	left: 520px;
 }
 
 /* Pantallas registro trabajador */
 /* Registro trabajador 1*/
 .campo_claro {
-  box-sizing: border-box;
-  width: 293px;
-  height: 49px;
-  background: #FFFFFF;
-  border: none;
-  border-radius: 10px;
+	box-sizing: border-box;
+	width: 293px;
+	height: 49px;
+	background: #FFFFFF;
+	border: none;
+	border-radius: 10px;
 
-  font-family: 'Jost', sans-serif;
-  padding: 20px;
-  font-style: normal;
-  font-size: 15px;
+	font-family: 'Jost', sans-serif;
+	padding: 20px;
+	font-style: normal;
+	font-size: 15px;
 }
 
 /* Color del texto que contiene el campo*/
 .campo_claro::placeholder {
-  color: #9E9D9D;
+	color: #9E9D9D;
 }
 
 .flecha_Avanzar {
-  position: absolute;
-  left: 790px;
-  transform: rotate(-180deg);
+	position: absolute;
+	left: 790px;
+	transform: rotate(-180deg);
 }
 
 /* Registro trabajador 2*/
 
-.boton_rojo{
-  box-sizing: border-box;
-  width: 293px;
-  height: 49px;
-  background: #D83C3E;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+.boton_rojo {
+	box-sizing: border-box;
+	width: 293px;
+	height: 49px;
+	background: #D83C3E;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
 
-  /* Texto adentro del botón */
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  color: #FFFFFF;
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FFFFFF;
 }
 
-.boton_rojo_input{
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-size: 12px;
-  color: #FFFFFF;
+.boton_rojo_input {
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
 }
 
-.boton_seleccionar{
-  box-sizing: border-box;
-  width: 293px;
-  height: 49px;
-  background: #FFFFFF;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  padding-left: 20px;
+.boton_seleccionar {
+	box-sizing: border-box;
+	width: 293px;
+	height: 49px;
+	background: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	padding-left: 20px;
 
-  /* Texto adentro del botón */
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  color:  #9E9D9D;
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-size: 15px;
+	color: #9E9D9D;
+}
+
+.boton_registrarme {
+	box-sizing: border-box;
+	width: 141px;
+	height: 49px;
+	background: #DC44BF;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FFFFFF;
 }
 
 /* Usuario */
 
 h2 {
-  font-family: 'Jost', sans-serif;
-  color: #FFFFFF;
+	font-family: 'Jost', sans-serif;
+	color: #FFFFFF;
 }
 
 .info_usuario {
-  position: absolute;
-  width: 305px;
-  height: 42px;
-  left: calc(50% - 305px/2 - 0.5px);
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
+	position: absolute;
+	width: 305px;
+	height: 42px;
+	left: calc(50% - 305px/2 - 0.5px);
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
 }
 
 .direccion_usuario,
 .izq {
-  position: absolute;
-  width: 305px;
-  height: 42px;
-  left: calc(50% - 305px/2 - 0.5px);
+	position: absolute;
+	width: 305px;
+	height: 42px;
+	left: calc(50% - 305px/2 - 0.5px);
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 23px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
 }
 
 .der {
-  position: absolute;
-  left: calc(105% - 305px/2 - 0.5px);
+	position: absolute;
+	left: calc(105% - 305px/2 - 0.5px);
 }
 
 
 .servicios_rectangulo {
-  box-sizing: border-box;
-  width: 135px;
-  height: 135px;
+	box-sizing: border-box;
+	width: 135px;
+	height: 135px;
 
-  background: #161B22;
-  border: 1px solid #161B22;
-  border-radius: 10px;
+	background: #161B22;
+	border: 1px solid #161B22;
+	border-radius: 10px;
 }
 
 .imagen_servicio {
-  position: absolute;
-  left: 25px;
-  width: 90px;
-  height: 90px;
-  background: url(image.png);
+	position: absolute;
+	left: 25px;
+	width: 90px;
+	height: 90px;
+	background: url(image.png);
 }
 
 .barra_inferior {
-  box-sizing: border-box;
-  width: 360px;
-  height: 49px;
+	box-sizing: border-box;
+	width: 360px;
+	height: 49px;
 
-  background: #161B22;
-  border: 1px solid #161B22;
-  border-radius: 10px;
+	background: #161B22;
+	border: 1px solid #161B22;
+	border-radius: 10px;
 }
 
 
 .recuadro_lila {
-  box-sizing: border-box;
-  width: 305px;
-  height: 49px;
+	box-sizing: border-box;
+	width: 305px;
+	height: 49px;
 
-  background: #DC44BF;
-  border: 1px solid #DC44BF;
+	background: #DC44BF;
+	border: 1px solid #DC44BF;
 
-  border-radius: 10px;
+	border-radius: 10px;
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
 
 }
 
 .recuadro_naranja {
-  box-sizing: border-box;
-  width: 305px;
-  height: 49px;
+	box-sizing: border-box;
+	width: 305px;
+	height: 49px;
 
-  background: #D83C3E;
-  border: 1px solid #D83C3E;
+	background: #D83C3E;
+	border: 1px solid #D83C3E;
 
-  border-radius: 10px;
+	border-radius: 10px;
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
 
 }
 
 .recuadro_azul {
-  box-sizing: border-box;
-  width: 305px;
-  height: 49px;
+	box-sizing: border-box;
+	width: 305px;
+	height: 49px;
 
-  background: #6058FF;
-  border: 1px solid #6058FF;
+	background: #6058FF;
+	border: 1px solid #6058FF;
 
-  border-radius: 10px;
+	border-radius: 10px;
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
 
 }
 
 .espacio_servicio {
-  box-sizing: border-box;
-  width: 305px;
-  height: 54px;
-  background: #161B22;
-  border: 1px solid #161B22;
-  border-radius: 10px;
+	box-sizing: border-box;
+	width: 305px;
+	height: 54px;
+	background: #161B22;
+	border: 1px solid #161B22;
+	border-radius: 10px;
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-  display: flex;
-  align-items: center;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
 
-  color: #FFFFFF;
+	color: #FFFFFF;
 
 }
 
 .imagen_home {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 102px;
-  background: url(image.png);
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 102px;
+	background: url(image.png);
 }
 
 .imagen_option {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 250px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 250px;
 
-  background: url(image.png);
+	background: url(image.png);
 }
 
 .imagen_salida {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 308px;
-  background: url(image.png);
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 308px;
+	background: url(image.png);
 }
 
 .label_descripcion {
 
-  position: absolute;
-  width: 305px;
-  height: 42px;
-  left: calc(50% - 305px/2 - 0.5px);
+	position: absolute;
+	width: 305px;
+	height: 42px;
+	left: calc(50% - 305px/2 - 0.5px);
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  display: flex;
-  align-items: center;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
 }
 
 .label_descripcion_completado {
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
 
-  position: absolute;
-  width: 305px;
-  height: 42px;
-  left: calc(50% - 305px/2 - 0.5px);
-  line-height: 23px;
-  align-items: center;
-  display: flex;
+	position: absolute;
+	width: 305px;
+	height: 42px;
+	left: calc(50% - 305px/2 - 0.5px);
+	line-height: 23px;
+	align-items: center;
+	display: flex;
 }
 
 .boton_aceptar {
-  box-sizing: border-box;
-  width: 170px;
-  height: 49px;
-  left: 94px;
-  top: 675px;
+	box-sizing: border-box;
+	width: 170px;
+	height: 49px;
+	left: 94px;
+	top: 675px;
 
-  background: #D83C3E;
-  border: 1px solid #D83C3E;
+	background: #D83C3E;
+	border: 1px solid #D83C3E;
 
-  border-radius: 30px;
+	border-radius: 30px;
 
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  color: #FFFFFF;
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	color: #FFFFFF;
 }
 
 .rectangulo_solicitud_aceptada {
-  box-sizing: border-box;
-  position: absolute;
-  width: 280px;
-  height: 250px;
-  left: 527px;
-  top: 217px;
+	box-sizing: border-box;
+	position: absolute;
+	width: 280px;
+	height: 250px;
+	left: 527px;
+	top: 217px;
 
-  background: #FFFFFF;
-  border: 1px solid #FFFFFF;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
 
-  border-radius: 10px;
+	border-radius: 10px;
 
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
 
-  color: #161B22;
+	color: #161B22;
 }
 
 .rectangulo_estrellas {
-  box-sizing: border-box;
+	box-sizing: border-box;
 
-  position: absolute;
-  width: 150px;
-  height: 45px;
-  left: 0;
+	position: absolute;
+	width: 150px;
+	height: 45px;
+	left: 0;
 
 
-  background: #161B22;
-  border: 1px solid #161B22;
+	background: #161B22;
+	border: 1px solid #161B22;
 
-  border-radius: 10px;
+	border-radius: 10px;
 }
 
 /*Finaliza usuario*/

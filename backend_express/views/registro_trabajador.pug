@@ -1,7 +1,7 @@
 doctype html
 //
   /*
-  *  Pantalla registro trabajador 1.
+  *  Pantalla de registro de un trabajador.
   *
   */
 html(lang='es')
@@ -22,34 +22,85 @@ html(lang='es')
       | Reg&iacute;strate
     br
     br
-    form(align='center', method='POST', action='http://localhost:3000/registro_trabajador')
-      input#nombre.campo_claro(name='nombre', type='text', placeholder='Nombre', required='')
-      br
-      br
-      input#apellido.campo_claro(name='apellido', type='text', placeholder='Apellido', required='')
-      br
-      br
-      input#celular.campo_claro(name='celular', type='text', placeholder='Celular', minlength='10', maxlength='10', required='', pattern='[0-9]{10}')
-      br
-      br
-      input#direccion.campo_claro(name='direccion', type='text', placeholder='Dirección', required='')
-      br
-      br
-      input#cedula.campo_claro(name='cedula', type='tel', placeholder='Cédula', minlength='7', maxlength='10', required='', pattern='[0-9]{7,10}')
-      br
-      br
-      input#correo.campo_claro(name='correo', type='email', placeholder='Correo electrónico', required='')
-      br
-      br
-      br
-      br
-      br
-      br
-      a(href='registro')
-        img.flecha_volver(title='Volver', src='/images/flechaVolver.png')
-      a(href='registro_trabajador2', type='submit')
-        input.flecha_Avanzar(type='image', title='Siguiente', src='/images/flechaVolver.png')
-      br
-      br
-      br
-      br
+    div(align='center')
+      span.registrate_parrafos
+        form(method='post', action='http://localhost:3000/registro_trabajador')
+          input#nombre.campo_claro(name='nombre', type='text', placeholder='Nombre', required='')
+          br
+          br
+          input#apellido.campo_claro(name='apellido', type='text', placeholder='Apellido', required='')
+          br
+          br
+          input#celular.campo_claro(name='celular', type='text', placeholder='Celular', minlength='10', maxlength='10', pattern='[0-9]{10}', required='')
+          br
+          br
+          input#direccion.campo_claro(name='direccion', type='text', placeholder='Dirección', required='')
+          br
+          br
+          input#cedula.campo_claro(name='cedula', type='tel', placeholder='Cédula', minlength='7', maxlength='10', pattern='[0-9]{7,10}', required='')
+          br
+          br
+          input#correo.campo_claro(name='correo', type='email', placeholder='Correo electrónico', required='')
+          br
+          br
+          p
+            | Necesitamos validar tu identidad.
+            br
+            | Procura tomar las fotograf&iacute;as lo m&aacute;s legible posible:
+          br
+          br
+          .boton_rojo
+            label(for='foto_cedula') Foto de tu c&eacute;dula
+            br
+            input#foto_cedula.boton_rojo_input(type='file', accept='image/*', name='foto_cedula', required='')
+          br
+          br
+          .boton_rojo
+            label(for='foto_rostro') Foto de tu rostro
+            br
+            input#foto_rostro.boton_rojo_input(type='file', accept='image/*', name='foto_rostro', required='')
+          br
+          br
+          label(for='labores')
+            | A&ntilde;ade una labor para empezar a recibir
+            br
+            | solicitudes de servicios.
+          br
+          br
+          select#labores.boton_seleccionar(name='labor', required='')
+            option(value='1') Jardiner&iacute;a
+            option(value='2') Peluquer&iacute;a
+            option(value='3') Clases de baile
+            option(value='4') Cocina
+            option(value='5') Clases de piano
+            option(value='6') Sistemas
+          br
+          br
+          p
+            | &iquest;Eres experto en m&aacute;s labores?
+            br
+            | No te preocupes, luego podr&aacute;s a&ntilde;adir m&aacute;s.
+          br
+          br
+          p Por &uacute;ltimo, crea una contrase&ntilde;a segura:
+          br
+          input#contrasena.campo_claro(name='contrasena', type='password', placeholder='Contraseña', minlength='8', required='')
+          br
+          br
+          input#contrasena_confirmacion.campo_claro(name='contrasena_confirmacion', type='password', placeholder='Confirmar contraseña', minlength='8', required='')
+          br
+          br
+          br
+          br
+          input.boton_registrarme(type='submit', title='Registrarme', value='Registrarme')
+          br
+          br
+          span#error_parrafo.error_texto #{error}
+          br
+          br
+          a(href='registro')
+            img.flecha_volver(title='Volver', src='/images/flechaVolver.png')
+          br
+          br
+          br
+          br

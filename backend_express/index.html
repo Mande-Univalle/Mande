@@ -1,7 +1,6 @@
 <!-- 
 /*
- *  Pantalla registro general.
- *	Se usa para escoger el tipo de usuario a registrar.
+ *  Pantalla de registro de un trabajador.
  *
 */
  -->
@@ -27,24 +26,39 @@
     <br></br>
     <div align=center>
         <span class="registrate_parrafos">
-            <p>
-                Necesitamos validar tu identidad.
-                <br />
-                Procura tomar las fotografías lo más legible posible:
-            </p>
-            <br></br>
-            <form method="post" enctype="multipart/form-data">
+            <form method="post" action='http://localhost:3000/registro_trabajador'>
+                <input class="campo_claro" id="nombre" name="nombre" type="text" placeholder="Nombre" required>
+                <br>
+                <br>
+                <input class="campo_claro" id="apellido" name="apellido" type="text" placeholder="Apellido"
+                    required><br><br>
+                <input class="campo_claro" id="celular" name="celular" type="text" placeholder="Celular" minlength="10"
+                    maxlength="10" pattern="[0-9]{10}" required><br><br>
+                <input class="campo_claro" id="direccion" name="direccion" type="text" placeholder="Dirección"
+                    required><br><br>
+                <input class="campo_claro" id="cedula" name="cedula" type="tel" placeholder="Cédula" minlength="7"
+                    maxlength="10" pattern="[0-9]{7,10}" required><br><br>
+                <input class="campo_claro" id="correo" name="correo" type="email" placeholder="Correo electrónico"
+                    required>
+                <br>
+                <br>
+                <p>
+                    Necesitamos validar tu identidad.
+                    <br />
+                    Procura tomar las fotografías lo más legible posible:
+                </p>
+                <br></br>
                 <div class="boton_rojo">
                     <label for="foto_cedula">Foto de tu cédula</label>
                     <br />
-                    <input id="foto_cedula" type="file" accept="image/*" name="cedula" class="boton_rojo_input"
+                    <input id="foto_cedula" type="file" accept="image/*" name="foto_cedula" class="boton_rojo_input"
                         required>
                 </div>
                 <br></br>
                 <div class="boton_rojo">
                     <label for="foto_rostro">Foto de tu rostro</label>
                     <br />
-                    <input id="foto_rostro" type="file" accept="image/*" name="rostro" class="boton_rojo_input"
+                    <input id="foto_rostro" type="file" accept="image/*" name="foto_rostro" class="boton_rojo_input"
                         required>
                 </div>
                 <br></br>
@@ -52,7 +66,7 @@
                     <br />solicitudes de servicios.</label>
                 <br></br>
                 <select name="labor" id="labores" class="boton_seleccionar" required>
-                    <option value="1" >Jardinería</option>
+                    <option value="1">Jardinería</option>
                     <option value="2">Peluquería</option>
                     <option value="3">Clases de baile</option>
                     <option value="4">Cocina</option>
@@ -64,17 +78,26 @@
                     <br />No te preocupes, luego podrás añadir más.
                 </p>
                 <br></br>
-                <a href="javascript:history.back()">
+                <p>Por último, crea una contraseña segura:</p>
+                <br>
+                <input class="campo_claro" id="contrasena" name="contrasena" type="password" placeholder="Contraseña"
+                    minlength="8" required><br><br>
+                <input class="campo_claro" id="contrasena_confirmacion" name="contrasena_confirmacion" type="password"
+                    placeholder="Confirmar contraseña" minlength="8" required><br><br>
+                <br>
+                <br>
+                <input class="boton_registrarme" type="submit" title="Registrarme" value="Registrarme">
+                <br></br>
+                <br></br>
+                <a href="registro">
                     <img class="flecha_volver" title="Volver" src="public/images/flechaVolver.png" />
-                </a>
-                <a href="registro_trabajador3.html" type="submit">
-                    <input class="flecha_Avanzar" type="image" title="Siguiente" src="public/images/flechaVolver.png">
                 </a>
                 <br></br><br></br>
             </form>
 
         </span>
     </div>
+    <script src="/scripts/registro_trabajador_script.js"></script>
 </body>
 
 </html>

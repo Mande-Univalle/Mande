@@ -25,7 +25,7 @@ html(lang='es')
     br
     br
     br
-    form(align='center', method='POST', action='usuario')
+    form(align='center', method='POST', action='http://localhost:3000/')
       input#celular.campo_oscuro(name='celular', type='tel', minlength='10', maxlength='10', placeholder='Celular', required='')
       br
       br
@@ -34,15 +34,16 @@ html(lang='es')
       br
       br
       br
-      input.boton_iniciar_sesion(title='Iniciar sesión', type='submit', value='Iniciar sesión')
+      input#boton_iniciar_sesion.boton_iniciar_sesion(title='Iniciar sesión', type='submit', value='Iniciar sesión')
       br
       br
+      span#error_parrafo.error_texto
       br
       br
       span.no_tienes_una_cuenta
         | &iquest;No tienes cuenta?&nbsp;
         a(href='registro')
           button.registrate(type='button', title='Regístrate')
-            div Reg&iacute;strate
+            div Reg&iacute;strate    
 
             

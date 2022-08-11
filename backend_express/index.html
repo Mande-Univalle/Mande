@@ -1,20 +1,20 @@
 <!-- 
 /*
- *	Pantalla incial
+ *  Pantalla registro general.
+ *	Se usa para escoger el tipo de usuario a registrar.
  *
 */
  -->
 <!DOCTYPE html>
 <html lang="es">
 
-
 <head>
     <meta name="viewport" content="width=device-width" charset="utf-8">
     <title>mnd:)</title>
+    <!--Importa las fuentes desde Google Fonts-->
     <link rel="stylesheet" href="public/stylesheets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
 </head>
@@ -22,31 +22,59 @@
 <body>
     <br></br>
     <br></br>
-    <h1 title="Bienvenido a Mande" class="mande_logo" align="center">mnd<font size=4>:)</font>
+    <h1 class="registrate_tiulo" align="center">Regístrate
     </h1>
     <br></br>
-    <br></br>
+    <div align=center>
+        <span class="registrate_parrafos">
+            <p>
+                Necesitamos validar tu identidad.
+                <br />
+                Procura tomar las fotografías lo más legible posible:
+            </p>
+            <br></br>
+            <form method="post" enctype="multipart/form-data">
+                <div class="boton_rojo">
+                    <label for="foto_cedula">Foto de tu cédula</label>
+                    <br />
+                    <input id="foto_cedula" type="file" accept="image/*" name="cedula" class="boton_rojo_input"
+                        required>
+                </div>
+                <br></br>
+                <div class="boton_rojo">
+                    <label for="foto_rostro">Foto de tu rostro</label>
+                    <br />
+                    <input id="foto_rostro" type="file" accept="image/*" name="rostro" class="boton_rojo_input"
+                        required>
+                </div>
+                <br></br>
+                <label for="labores">Añade una labor para empezar a recibir
+                    <br />solicitudes de servicios.</label>
+                <br></br>
+                <select name="labor" id="labores" class="boton_seleccionar" required>
+                    <option value="1" >Jardinería</option>
+                    <option value="2">Peluquería</option>
+                    <option value="3">Clases de baile</option>
+                    <option value="4">Cocina</option>
+                    <option value="5">Clases de piano</option>
+                    <option value="6">Sistemas</option>
+                </select>
+                <br></br>
+                <p>¿Eres experto en más labores?
+                    <br />No te preocupes, luego podrás añadir más.
+                </p>
+                <br></br>
+                <a href="javascript:history.back()">
+                    <img class="flecha_volver" title="Volver" src="public/images/flechaVolver.png" />
+                </a>
+                <a href="registro_trabajador3.html" type="submit">
+                    <input class="flecha_Avanzar" type="image" title="Siguiente" src="public/images/flechaVolver.png">
+                </a>
+                <br></br><br></br>
+            </form>
 
-    <form align=center method='POST' action='usuario'>
-        <input class="campo_oscuro" type="tel" id="celular" minlength="10" maxlength="10" placeholder="Celular"
-            required>
-        <br></br>
-        <input class="campo_oscuro" type="password" id="contrasena" placeholder="Contraseña" required>
-        <br></br>
-        <br></br>
-        <input title="Iniciar sesión" class="boton_iniciar_sesion" type="submit" value="Iniciar sesión" />
-        <br></br>
-        <br></br>
-        <span class="no_tienes_una_cuenta">
-            ¿No tienes cuenta?&nbsp;
-            <a href="registro.html">
-                <button type="button" title="Regístrate" class="registrate">
-                    <div>Regístrate</div>
-                </button>
-            </a>
         </span>
-    </form>
-
+    </div>
 </body>
 
 </html>

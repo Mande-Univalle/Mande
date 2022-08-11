@@ -8,6 +8,7 @@ const helloRouter = require('./routes/hello');
 const indexRouter = require('./routes/index');
 const crearRouter = require('./routes/crear');
 const registroRouter = require('./routes/registro');
+const registro_trabajadorRouter = require('./routes/registro_trabajador');
 
 const queryRouter = require('./routes/query');
 const usuarioRouter = require('./routes/usuario');
@@ -24,10 +25,18 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Direcciones a las que se puede acceder desde la barra de url
 app.use('/hello', helloRouter);
-app.use('/', indexRouter);
+
 app.use('/crear', crearRouter);
+
+//Inicio
+app.use('/', indexRouter);
+
+//Registro
 app.use('/registro', registroRouter);
+app.use('/registro_trabajador', registro_trabajadorRouter);
+
 
 app.use('/ejecutar_query', queryRouter);
 app.use('/usuario', usuarioRouter);

@@ -57,6 +57,14 @@ h1 {
   color: #FFFFFF;
 }
 
+.error_texto{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 300;
+  color: #DC44BF;
+}
+
 .no_tienes_una_cuenta {
   font-family: 'Jost', sans-serif;
   font-style: normal;
@@ -256,7 +264,6 @@ h2 {
 
   background: #161B22;
   border: 1px solid #161B22;
-  backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 
@@ -275,8 +282,6 @@ h2 {
 
   background: #161B22;
   border: 1px solid #161B22;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 10px;
 }
 
@@ -288,8 +293,6 @@ h2 {
 
   background: #DC44BF;
   border: 1px solid #DC44BF;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 10px;
 
@@ -311,8 +314,6 @@ h2 {
 
   background: #D83C3E;
   border: 1px solid #D83C3E;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 10px;
 
@@ -334,8 +335,6 @@ h2 {
 
   background: #6058FF;
   border: 1px solid #6058FF;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 10px;
 
@@ -356,7 +355,6 @@ h2 {
   height: 54px;
   background: #161B22;
   border: 1px solid #161B22;
-  backdrop-filter: blur(4px);
   border-radius: 10px;
 
   font-family: 'Jost';
@@ -437,8 +435,6 @@ h2 {
 
   background: #D83C3E;
   border: 1px solid #D83C3E;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 30px;
 
@@ -459,8 +455,6 @@ h2 {
 
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 10px;
 
@@ -486,8 +480,6 @@ h2 {
 
   background: #161B22;
   border: 1px solid #161B22;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 10px;
 }

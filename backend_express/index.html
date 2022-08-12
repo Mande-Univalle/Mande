@@ -1,6 +1,6 @@
 <!-- 
 /*
- *  Pantalla de registro de un trabajador.
+ *  Pantalla de registro de un usuario.
  *
 */
  -->
@@ -26,7 +26,7 @@
     <br></br>
     <div align=center>
         <span class="registrate_parrafos">
-            <form method="post" action='http://localhost:3000/registro_trabajador'>
+            <form method="post" action='http://localhost:3000/registro_usuario'>
                 <input class="campo_claro" id="nombre" name="nombre" type="text" placeholder="Nombre" required>
                 <br>
                 <br>
@@ -43,40 +43,26 @@
                 <br>
                 <br>
                 <p>
-                    Necesitamos validar tu identidad.
-                    <br />
-                    Procura tomar las fotografías lo más legible posible:
+                    Necesitamos validar tu lugar de residencia.
                 </p>
-                <br></br>
+                <br>
                 <div class="boton_rojo">
-                    <label for="foto_cedula">Foto de tu cédula</label>
+                    <label for="foto_recibo">Foto de un recibo de servicios públicos</label>
                     <br />
-                    <input id="foto_cedula" type="file" accept="image/*" name="foto_cedula" class="boton_rojo_input"
+                    <input id="foto_recibo" type="file" accept="image/*" name="foto_recibo" class="boton_rojo_input"
                         required>
                 </div>
                 <br></br>
-                <div class="boton_rojo">
-                    <label for="foto_rostro">Foto de tu rostro</label>
-                    <br />
-                    <input id="foto_rostro" type="file" accept="image/*" name="foto_rostro" class="boton_rojo_input"
-                        required>
-                </div>
+                <label for="tipo">Ingresa el medio de pago con el que
+                    <br />pagaras tus servicios:</label>
                 <br></br>
-                <label for="labores">Añade una labor para empezar a recibir
-                    <br />solicitudes de servicios.</label>
-                <br></br>
-                <select name="labor" id="labores" class="boton_seleccionar" required>
-                    <option value="1">Jardinería</option>
-                    <option value="2">Peluquería</option>
-                    <option value="3">Clases de baile</option>
-                    <option value="4">Cocina</option>
-                    <option value="5">Clases de piano</option>
-                    <option value="6">Sistemas</option>
+                <input class="campo_claro" id="tarjeta" name="tarjeta" type="text" placeholder="Número de tarjeta"
+                    minlength="5" maxlength="10" pattern="[0-9]{5,10}" required>
+                <br><br>
+                <select name="tipo" id="tipo" class="boton_seleccionar" required>
+                    <option value="1">Débito</option>
+                    <option value="2">Crédito</option>
                 </select>
-                <br></br>
-                <p>¿Eres experto en más labores?
-                    <br />No te preocupes, luego podrás añadir más.
-                </p>
                 <br></br>
                 <p>Por último, crea una contraseña segura:</p>
                 <br>
@@ -89,7 +75,7 @@
                 <input class="boton_registrarme" type="submit" title="Registrarme" value="Registrarme">
                 <br></br>
                 <br></br>
-                <a href="registro">
+                <a href="registro.html">
                     <img class="flecha_volver" title="Volver" src="public/images/flechaVolver.png" />
                 </a>
                 <br></br><br></br>
@@ -97,7 +83,5 @@
 
         </span>
     </div>
-    <script src="/scripts/registro_trabajador_script.js"></script>
 </body>
-
 </html>

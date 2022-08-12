@@ -7,6 +7,7 @@ const logger = require('morgan');
 const helloRouter = require('./routes/hello');
 const indexRouter = require('./routes/index');
 const registroRouter = require('./routes/registro');
+const registro_usuarioRouter = require('./routes/registro_usuario');
 const registro_trabajadorRouter = require('./routes/registro_trabajador');
 
 const app = express();
@@ -29,6 +30,7 @@ app.use('/', indexRouter);
 
 //Registro
 app.use('/registro', registroRouter);
+app.use('/registro_usuario', registro_usuarioRouter);
 app.use('/registro_trabajador', registro_trabajadorRouter);
 
 // catch 404 and forward to error handler

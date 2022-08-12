@@ -1,7 +1,7 @@
 doctype html
 //
   /*
-  *  Pantalla de registro de un trabajador.
+  *  Pantalla de registro de un usuario.
   *
   */
 html(lang='es')
@@ -24,7 +24,7 @@ html(lang='es')
     br
     div(align='center')
       span.registrate_parrafos
-        form(method='post', action='http://localhost:3000/registro_trabajador')
+        form(method='post', action='http://localhost:3000/registro_usuario')
           input#nombre.campo_claro(name='nombre', type='text', placeholder='Nombre', required='')
           br
           br
@@ -44,42 +44,26 @@ html(lang='es')
           br
           br
           p
-            | Necesitamos validar tu identidad.
-            br
-            | Procura tomar las fotograf&iacute;as lo m&aacute;s legible posible:
-          br
+            | Necesitamos validar tu lugar de residencia.
           br
           .boton_rojo
-            label(for='foto_cedula') Foto de tu c&eacute;dula
+            label(for='foto_recibo') Foto de un recibo de servicios p&uacute;blicos
             br
-            input#foto_cedula.boton_rojo_input(type='file', accept='image/*', name='foto_cedula', required='')
+            input#foto_recibo.boton_rojo_input(type='file', accept='image/*', name='foto_recibo', required='')
           br
           br
-          .boton_rojo
-            label(for='foto_rostro') Foto de tu rostro
+          label(for='tipo')
+            | Ingresa el medio de pago con el que
             br
-            input#foto_rostro.boton_rojo_input(type='file', accept='image/*', name='foto_rostro', required='')
+            | pagar&aacute;s tus servicios:
           br
           br
-          label(for='labores')
-            | A&ntilde;ade una labor para empezar a recibir
-            br
-            | solicitudes de servicios.
+          input#tarjeta.campo_claro(name='tarjeta', type='text', placeholder='Número de tarjeta', minlength='5', maxlength='10', pattern='[0-9]{5,10}', required='')
           br
           br
-          select#labores.boton_seleccionar(name='labor', required='')
-            option(value='1') Jardiner&iacute;a
-            option(value='2') Peluquer&iacute;a
-            option(value='3') Clases de baile
-            option(value='4') Cocina
-            option(value='5') Clases de piano
-            option(value='6') Sistemas
-          br
-          br
-          p
-            | &iquest;Eres experto en m&aacute;s labores?
-            br
-            | No te preocupes, luego podr&aacute;s a&ntilde;adir m&aacute;s.
+          select#tipo.boton_seleccionar(name='tipo', required='')
+            option(value='1') D&eacute;bito
+            option(value='2') Cr&eacute;dito
           br
           br
           p Por &uacute;ltimo, crea una contrase&ntilde;a segura:
@@ -92,7 +76,7 @@ html(lang='es')
           br
           br
           br
-          input.boton_registrarme_lila(type='submit', title='Registrarme', value='Registrarme')
+          input.boton_registrarme(type='submit', title='Registrarme', value='Registrarme')
           br
           br
           span#error_parrafo.error_texto #{error}

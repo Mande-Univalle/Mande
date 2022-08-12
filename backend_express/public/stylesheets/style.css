@@ -246,6 +246,23 @@ h1 {
 	color: #FFFFFF;
 }
 
+.boton_registrarme_lila {
+	box-sizing: border-box;
+	width: 141px;
+	height: 49px;
+	background: #9E34F9;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+
+	/* Texto adentro del botón */
+	font-family: 'Jost', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
 /* Usuario */
 
 h2 {
